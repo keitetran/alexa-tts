@@ -23,6 +23,7 @@ node -v
 # Install app
 
 cd /home/homeassistant/tts-alexa
-sudo npm install -g electron --unsafe-perm=true --allow-root
-sudo npm install
+
+sudo npm install --unsafe-perm=true --allow-root
+
 sudo pm2 start index.js
