@@ -33,7 +33,9 @@
 - `pm2 startup`
 - `sudo pm2 start ./index.js`
 
-# Config custom component on HA
+# Config App
 
 - Copy folder custom_components to config dir
 - See `automation.yaml` for example
+- Change your info on config.js
+- After change `sudo pm2 restart` Remember it !!! Good luck :D
