@@ -1,0 +1,13 @@
+
+- alias: 'Test noti'
+  trigger:
+    platform: state
+    entity_id: input_boolean.information_messages
+    to: 'on'
+  action:
+    - condition: state
+      entity_id: input_boolean.information_messages
+      state: 'on'
+    - service: alexa_tts.msg
+      data:
+        msg: 'Hello from test message !!!'

@@ -1,13 +1,13 @@
 {
-  "name": "alexa-reminders",
+  "name": "alexa-tts",
   "version": "1.0.1",
-  "description": "",
-  "main": "alexa-reminders.js",
+  "description": "Alexa TTS for HA by Keite Trần",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Keite Trần",
+  "email": "mr.ngocanhtran@gmail.com",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
