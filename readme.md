@@ -38,4 +38,4 @@
 - Copy folder custom_components to config dir
 - See `automation.yaml` for example
 - Change your info on config.js
-- After change `sudo pm2 restart` Remember it !!! Good luck :D
+- After change any file run thí command `sudo pm2 restart` Remember it !!! Good luck :D
