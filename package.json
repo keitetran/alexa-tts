@@ -5,13 +5,11 @@
   "scripts": {
     "start": "node ./index.js"
   },
-  "keywords": [],
   "author": "Keite Trần",
   "email": "mr.ngocanhtran@gmail.com",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
-    "nightmare": "^2.10.0",
-    "request": "^2.83.0"
+    "nightmare": "^3.0.1",
+    "request": "^2.87.0"
   }
 }
