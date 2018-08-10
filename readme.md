@@ -15,7 +15,6 @@
 
 # Install app
 
-- `cd /home/homeassistant/tts-alexa`
 - `sudo npm install --unsafe-perm=true --allow-root`
 
   - if have error
