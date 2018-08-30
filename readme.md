@@ -15,7 +15,6 @@
 
 # Install app
 
-- `cd /home/homeassistant/tts-alexa`
 - `sudo npm install --unsafe-perm=true --allow-root`
 
   - if have error
@@ -26,7 +25,9 @@
 
 - `node ./index.js`
 - App will run here: http://localhost:8125
-
+- Alexa command will avalible here: http://localhost:8125/tts/<your message>
+- ex: http://localhost:8125/tts/hello+i+am+alexa
+  
 # Manager nodejs app on raspi [(Auto start when reboot)](http://pm2.io/)
 
 - `sudo npm install pm2 -g`
