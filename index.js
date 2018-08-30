@@ -16,13 +16,12 @@ app.get('/', function (req, res) {
 
 app.get('/tts/:msg', (req, res) => {
   let msg = req.params.msg;
-
   fs.readFile(path.join(__dirname, config.cookieFile), 'utf8', function (err, fileData) {
     if (err) {
       console.log(err);
       return;
     }
-    alexa.sendTtsToEcho(JSON.parse(fileData), msg).then(r => {
+    alexa.sendTtsToAlexa(JSON.parse(fileData), msg).then(r => {
       if (!r) return res.send(false);
       return res.send(true);
     });

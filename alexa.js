@@ -49,7 +49,7 @@ const login = function () {
   });
 };
 
-const sendTtsToEcho = function (data, message) {
+const sendTtsToAlexa = function (data, message) {
   return new Promise(reslove => {
     request({
       method: 'POST',
@@ -89,5 +89,5 @@ const sendTtsToEcho = function (data, message) {
 
 module.exports = {
   login: login,
-  sendTtsToEcho: sendTtsToEcho
+  sendTtsToEcho: sendTtsToAlexa
 };
